@@ -1,0 +1,396 @@
+/*
+* @Author: DELL
+* @Date:   2020-05-26 08:49:13
+* @Last Modified by:   DELL
+* @Last Modified time: 2020-05-26 15:34:36
+*/
+*{
+	padding:0;
+	margin:0;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style:none;
+}
+.clear:after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+}
+.head{
+	text-align:center;
+}
+.headbox{
+	width:1200px;
+	margin:auto;
+	height:101px;
+}
+.logo{
+	width:170px;
+	height:39px;
+	float:left;
+	margin-top:33px;
+}
+.head ul{
+	display:inline-block;
+	margin:32px 137px 0px 79px;
+	float:left;
+}
+.head li{
+	display:inline-block;
+	float:left;
+	height:42px;
+	padding:10px 8px;
+	margin-left:30px;
+	border-bottom:0px solid #00A4FF;
+}
+.head li a{
+	color:black;
+}
+.head li a:hover{
+	border-bottom:2px solid #00A4FF;
+}
+.head input{
+	float:left;
+}
+.input{
+	margin: 31px 0px 31px 50px;
+	height:40px;
+	border: 1px solid;
+	width:361px;
+	text-indent:19px;
+	color:#BFBFBF;
+}
+.search{
+	margin-top:31px;
+	height:40px;
+	width:50px;
+	border: 1px solid;
+	background-color: #00A4FF;
+}
+.grcenter{
+	line-height:101px;
+	width:60px;
+	height:12px;
+	font-size:14px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(102,102,102,1);
+}
+.banner{
+	background-image:url('web/banner2.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	height:420px;
+	background-color:#1C036C;
+	position:relative;
+}
+.bannernavbox{
+	position:absolute;
+	left:14%;
+	height:420px;
+	width:190px;
+	overflow:hidden;
+}
+.bannernavbox ul{
+	padding-top:27px;
+	background-color:rgba(0,0,0,0.5);
+}
+.bannernavbox li{
+	height:45px;
+}
+.bannernavbox li a{
+	color:white;
+}
+.bannernavbox li a:hover{
+	color:#00B4FF;
+}
+.nav ul li{
+	float:left;
+	margin:21px 30px;
+}
+.nav ul li a{
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	font-weight:bold;
+	color:rgba(0,0,0,1);
+}
+.smallnav{
+	width:1200px;
+	height:60px;
+	background:rgba(255,255,255,1);
+	box-shadow:0px 2px 3px 0px rgba(118,118,118,0.2);
+	margin:auto;
+}
+#xingqu{
+	float:right;
+}
+#xingqu a{
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	font-weight:bold;
+	color:rgba(0,164,255,1);
+}
+#jingpin a{
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	font-weight:bold;
+	color:rgba(0,164,255,1);
+}
+.beforenav{
+	width:1200px;
+	line-height:77px;
+	margin:auto;
+}
+.quanbu{
+	float:right;
+}
+.jingpindivbox{
+	width:1200px;
+	height:556px;
+	margin:auto;
+}
+.jingpindiv{
+	float:left;
+	width:228px;
+	height:270px;
+	margin-left:15px;
+	margin-bottom:15px;
+	box-shadow:0px 2px 5px 0px rgba(118,118,118,0.5);
+	overflow:hidden;
+}
+#firstdiv{
+	margin-left:0px;
+}
+.p1{
+	width:185px;
+	height:34px;
+	font-size:14px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(5,5,5,1);
+	line-height:20px;
+	margin:auto;
+	margin-top:10px;
+}
+.p2 {
+	width:132px;
+	height:13px;
+	font-size:12px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(255,124,45,1);
+	text-indent:23px;
+	margin-top:18px;
+}
+.p2 span{
+	color:#606060;
+	font-size:12px;
+}
+.qdnav{
+	width:1200px;
+	margin:auto;
+	text-align:center;
+	line-height:77px;
+}
+.firstqdnav{
+	float:left;
+	width:140px;
+	height:19px;
+	font-size:20px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(73,73,73,1);
+}
+.lastqdnav{
+	float:right;
+}
+.lastqdnav a{
+	width:48px;
+	height:13px;
+	font-size:12px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(165,165,165,1);
+}
+.centerqdnav a{
+	width:327px;
+	height:17px;
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(0,164,255,1);
+}
+.qddivbox{
+	width:1200px;
+	height:270px;
+	margin:auto;
+}
+.qddiv{
+	float:left;
+	width:228px;
+	height:270px;
+	margin-left:15px;
+	box-shadow:0px 2px 5px 0px rgba(118,118,118,0.5);
+	overflow:hidden;
+}
+#firstqddiv{
+	margin-left:0px;
+}
+.p3{
+	width:185px;
+	height:34px;
+	font-size:14px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(5,5,5,1);
+	line-height:20px;
+	margin:auto;
+	margin-top:20px;
+}
+.niurennav{
+	line-height:87px;
+	width:1200px;
+	margin:auto;
+}
+.niurendivbox{
+	width:1200px;
+	height:320px;
+	margin:auto;
+	overflow:hidden;
+	margin-bottom:73px;
+}
+.niurendiv{
+	width:228px;
+	height:320px;
+	float:left;
+	position:relative;
+	margin-left:15px;
+}
+#firstniurendiv{
+	width:471px;
+	height:320px;
+	float:left;
+	position:relative;
+	margin-left:0px;
+}
+.biyeji{
+	width:163px;
+	height:62px;
+	font-size:30px;
+	font-family:Microsoft YaHei;
+	font-weight:bold;
+	color:rgba(249,225,3,1);
+	line-height:36px;
+	position:absolute;
+	left:25px;
+	top:99px;
+}
+.zhuanshen{
+	color:white;
+	width:163px;
+	height:62px;
+	font-size:27px;
+	font-family:Microsoft YaHei;
+	font-weight:Regular;
+	line-height:36px;
+	position:absolute;
+	left:25px;
+	top:130px;
+}
+.chakanbutton{
+	border:1px solid yellow;
+	position:absolute;
+	top:173px;
+	left:28px;
+}
+.chakanbutton a{
+	color:yellow;
+	font-family:MicrosoftYaHei;}
+.tc{
+	font-size:18px;
+	font-family:Microsoft YaHei;
+	font-weight:bold;
+	color:rgba(255,255,255,1);
+	line-height:20px;
+}
+.work{
+	font-size:14px;
+	font-family:Microsoft YaHei;
+	font-weight:regular;
+	color:rgba(255,255,255,1);
+	line-height:20px;
+}
+.introduce{
+	font-size:12px;
+	font-family:Microsoft YaHei;
+	font-weight:regular;
+	color:rgba(255,255,255,1);
+	line-height:20px;
+}
+.wenzi{
+	position: absolute;
+	height:122px;
+	bottom:0;
+	width:100%;
+	background:rgba(0,0,0,0.5);
+}
+.last{
+	background-color:#FFFFFF;
+}
+.lastbox{
+	width:1200px;
+	margin:auto;
+	margin-top:129px;
+	margin-bottom:160px;
+}
+.lastdiv{
+	float:left;
+	margin-left:146px;
+}
+#lastdiv1{
+	margin-right:127px;
+	margin-left:0px;
+}
+#lastdiv1 p{
+	width:372px;
+	height:12px;
+	font-size:12px;
+	font-family:SimSun;
+	font-weight:400;
+	color:rgba(102,102,102,1);
+	line-height:18px;
+	margin-top:35px;
+}
+#xiazai{
+	width:120px;
+	height:36px;
+	line-height:36px;
+	border:1px solid rgb(0,164,255);
+	margin-top:33px;
+	text-align:center;
+}
+#xiazai a{
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(0,164,255,1);
+}
+.litop{
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(51,51,51,1);
+	line-height:21px;
+	margin-bottom:15px;
+}
+.lastdiv a{
+	font-size:12px;
+	font-family:SimSun;
+	font-weight:400;
+	color:rgba(51,51,51,1);
+	line-height:21px;
+}
